@@ -32,7 +32,8 @@ export default function Home() {
         <Header />
       </div>
     {!singlePunkData?.id && (  <div className="uppercase text-9xl text-white font-extrabold text-center pb-10 ">
-       <span className="text-6xl">Welcome to the</span> <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-green-500">cryptopunks</span>
+       <span className="text-6xl">Welcome to the</span> <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-green-500">cryptopunks </span>
+       <span>nft</span>
       </div>)}
       {singlePunkData?.id && (
         <div className="m-7 ease-in ">
