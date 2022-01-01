@@ -28,7 +28,7 @@ function Header() {
           <Image src={themeSwitchIcon} height={30} width={30} />
         </div>
       </div>
-      <button className="bg-gradient-to-r from-cyan-500 to-green-500 py-5 px-6 rounded-3xl uppercase font-semibold md:w-48 lg:w-32">
+      <button className="bg-gradient-to-r from-cyan-500 to-green-500 py-5 px-6 hover:from-green-500 hover:to-cyan-500 hover:scale-110  hover:delay-150 duration-300 ease-in-out rounded-3xl uppercase font-semibold md:w-48 lg:w-32">
         sign up
       </button>
     </div>
